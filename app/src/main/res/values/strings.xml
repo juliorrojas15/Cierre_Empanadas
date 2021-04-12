@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">Cierre Empanadas</string>
+
+    <!-- ##################################################### Datos de ingreso ######-->
+    <string name="string_CompradasHoy">Compradas Hoy</string>
+    <string name="string_DevueltasAyer">Devueltas de Ayer</string>
+    <string name="string_DañadasHoy">Dañadas Hoy</string>
+    <string name="string_ObsequiadasHoy">Obsequiadas Hoy</string>
+    <string name="string_DevueltasHoy">Devueltas Hoy</string>
+    <string name="string_CoffeeHoy">Coffee Hoy</string>
+    <string name="string_TinterasAyer">Tinteras pagadas de Ayer</string>
+    <string name="string_TinterasHoy">Tinteras pagadas Hoy</string>
+    <string name="string_TinterasPendiente">Tinteras Pendientes para mañana</string>
+    <string name="string_Vendedor_1_Ayer">Vend. 1 Cobradas de Ayer</string>
+    <string name="string_Vendedor_1_Hoy">Vend. 1 Cobradas Hoy</string>
+    <string name="string_Vendedor_1_Pendiente">Vend. 1 Pendientes para mañana</string>
+    <string name="string_Vendedor_2_Ayer">Vend. 2 Cobradas de Ayer</string>
+    <string name="string_Vendedor_2_Hoy">Vend. 2 Cobradas Hoy</string>
+    <string name="string_Vendedor_2_Pendiente">Vend. 2 Pendientes para mañana</string>
+    <!-- ##################################################### Totales #######-->
+    <string name="string_DisponiblesHoy">Disponibles Hoy</string>
+    <string name="string_Conteo">El conteo va en: xxx</string>
+    <string name="string_Faltantes">Aún Faltan: xxx</string>
+    <string name="string_DineroVendedor_1">Vend. 1 debe entregar: $xxx.xxx</string>
+    <string name="string_DineroVendedor_2">Vend. 2 debe entregar: $xxx.xxx</string>
+
+    <!-- ##################################################### Alert de confirmación #######-->
+    <string name="string_ComprasPapeleria">Compras Papeleria</string>
+    <string name="string_ComprasBolsas">Compras Bolsas</string>
+    <string name="string_ComprasOtros">Compra Otros</string>
+
+    <string name="string_DineroTotal">Dinero Recogido: $ XXX.XXX</string>
+    <string name="string_ComprasTotal">- Compras Total: $ XXX.XXX</string>
+    <string name="string_Efectivo">= Efectivo Total: $ XXX.XXX</string>
+
+
+
+    <!-- ##################################################### Teclado #######-->
+    <string name="st_Tecla_0">0</string>
+    <string name="st_Tecla_1">1</string>
+    <string name="st_Tecla_2">2</string>
+    <string name="st_Tecla_3">3</string>
+    <string name="st_Tecla_4">4</string>
+    <string name="st_Tecla_5">5</string>
+    <string name="st_Tecla_6">6</string>
+    <string name="st_Tecla_7">7</string>
+    <string name="st_Tecla_8">8</string>
+    <string name="st_Tecla_9">9</string>
+    <string name="st_Tecla_000">000</string>
+    <string name="st_Tecla_10">10</string>
+    <string name="st_Tecla_20">20</string>
+    <string name="st_Tecla_25">25</string>
+    <string name="st_Tecla_50">50</string>
+    <string name="st_Borrar">Del</string>
+    <string name="st_Enviar">Env</string>
+</resources>

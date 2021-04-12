@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tvDineroTotal"
+        style="@style/sty_TextoItems"
+        android:text="@string/string_DineroTotal"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.555"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.372" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:background="@color/BeigeCoffee"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.9"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.102">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+                       android:orientation="horizontal">
+
+            <TextView
+                style="@style/sty_TextoItems"
+                android:text="@string/string_ComprasPapeleria" />
+
+            <EditText
+                android:id="@+id/etComprasPapeleria"
+                style="@style/sty_BotonGris"
+                android:textAlignment="center"
+                android:hint="0"
+                android:inputType="numberDecimal" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/sty_TextoItems"
+                android:text="@string/string_ComprasBolsas" />
+
+            <EditText
+                android:id="@+id/etComprasBolsas"
+                style="@style/sty_BotonGris"
+                android:textAlignment="center"
+                android:hint="0"
+                android:inputType="numberDecimal" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/sty_TextoItems"
+                android:text="@string/string_ComprasOtros" />
+
+            <EditText
+                android:id="@+id/etComprasOtros"
+                style="@style/sty_BotonGris"
+                android:textAlignment="center"
+                android:hint="0"
+                android:inputType="numberDecimal" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:background="@color/VerdeBorde"></LinearLayout>
+
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tvCompras"
+        style="@style/sty_TextoItems"
+        android:layout_marginTop="20dp"
+        android:text="@string/string_ComprasTotal"
+        app:layout_constraintBottom_toTopOf="@+id/tvEfectivo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.555"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout"
+        app:layout_constraintVertical_bias="0.2" />
+
+    <TextView
+        android:id="@+id/tvEfectivo"
+        style="@style/sty_TextoItems"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/VerdeRelleno"
+        android:text="@string/string_Efectivo"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout"
+        app:layout_constraintVertical_bias="0.253" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,83 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="sty_TextoItems">
+
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">3</item>
+        <item name="android:layout_margin">5dp</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:textColor">@color/RojoCoffee</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="sty_BotonGris">
+        <item name="android:layout_height">60dp</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">2.5</item>
+        <item name="android:visibility">visible</item>
+        <item name="android:background">@drawable/boton_gris</item>
+        <item name="android:layout_margin">5dp</item>
+        <item name="android:textColor">@color/Negro</item>
+        <item name="android:textSize">32sp</item>
+    </style>
+
+    <style name="sty_TextoTotales">
+
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_weight">1.5</item>
+        <item name="android:layout_margin">2dp</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textColor">@color/BeigeCoffee</item>
+        <item name="android:textSize">10sp</item>
+        <item name="android:background">@color/RojoCoffee</item>
+    </style>
+
+    <style name="sty_BotonTeclado">
+        <item name="android:visibility">visible</item>
+        <item name="android:background">@drawable/boton_teclado</item>
+        <item name="android:layout_margin">2dp</item>
+        <item name="android:textColor">@color/Negro</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:layout_width">40dp</item>
+        <item name="android:layout_height">40dp</item>
+    </style>
+
+    <style name="sty_BotonTecladoAdicional">
+        <item name="android:visibility">visible</item>
+        <item name="android:background">@drawable/boton_teclado</item>
+        <item name="android:layout_margin">2dp</item>
+        <item name="android:textColor">@color/RojoCoffee</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:layout_width">40dp</item>
+        <item name="android:layout_height">40dp</item>
+    </style>
+
+    <style name="sty_BotonVerde">
+        <item name="android:visibility">visible</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:background">@drawable/boton_verde</item>
+        <item name="android:layout_margin">2dp</item>
+        <item name="android:textColor">@color/Negro</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+    <style name="sty_BotonAmarillo">
+        <item name="android:visibility">visible</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:background">@drawable/boton_amarillo</item>
+        <item name="android:layout_margin">2dp</item>
+        <item name="android:textColor">@color/Negro</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+</resources>
